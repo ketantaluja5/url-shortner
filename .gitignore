@@ -1,0 +1,61 @@
+# ======================
+# Backend (Spring Boot)
+# ======================
+
+url-shortener-backend/HELP.md
+url-shortener-backend/target/
+url-shortener-backend/.mvn/wrapper/maven-wrapper.jar
+
+!url-shortener-backend/**/src/main/**/target/
+!url-shortener-backend/**/src/test/**/target/
+
+# ======================
+# STS
+# ======================
+url-shortener-backend/.apt_generated
+url-shortener-backend/.classpath
+url-shortener-backend/.factorypath
+url-shortener-backend/.project
+url-shortener-backend/.settings
+url-shortener-backend/.springBeans
+url-shortener-backend/.sts4-cache
+
+# ======================
+# IntelliJ IDEA
+# ======================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ======================
+# NetBeans
+# ======================
+url-shortener-backend/nbproject/private/
+url-shortener-backend/nbbuild/
+url-shortener-backend/dist/
+url-shortener-backend/nbdist/
+url-shortener-backend/.nb-gradle/
+url-shortener-backend/build/
+
+!url-shortener-backend/**/src/main/**/build/
+!url-shortener-backend/**/src/test/**/build/
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# ======================
+# Frontend (future)
+# ======================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# ======================
+# Common
+# ======================
+*.log
+.DS_Store
+.env
